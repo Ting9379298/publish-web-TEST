@@ -1,0 +1,126 @@
+html {
+  height:100%;
+  width:100%;
+}
+
+body {
+  height:100%;
+  width:100%;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background:linear-gradient(#C4DFDF 25%,#D2E9E9 45%,#E3F4F4 70%,#f8f3ee 100%);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 490;
+  font-style: normal;
+}
+
+
+p, h1 {
+  text-align: center;
+  color: #0F4C75;
+
+  font-family: "Gemunu Libre", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+h1{
+  font-size: 3em;
+  margin-bottom: -0.3em;
+}
+
+p{
+  margin-bottom: 1.25em;
+  font-size: 1.3em;
+}
+
+.small-size-font {
+  font-size: 0.8em;
+  color: #364d7c;
+}
+
+form {
+  margin: auto;
+  width: 80vw;
+  max-width: 600px;
+  min-width:250px;
+  padding: 1em 2em;
+  background-color: #135c7c41;
+  border-radius: 13px;
+  font-size: 1.2em;
+  color: #142850;
+}
+
+input, select,textarea {
+  width: 100%;
+  border: 10px;
+  border-radius: 2px;
+  background-color: #ffffffb3;
+  margin: 0 0 10px 0;
+}
+
+#name, #email, #age,select {
+  height: 1.8em;
+  font-size: 0.8em;
+}
+
+label {
+  display: block;
+}
+
+.inline {
+  width: unset;
+  display: inline;
+  margin: 1em 1.2em 0 0;
+  /*vertical-align: middle;*/
+}
+
+fieldset {
+  border: 0;
+  margin-top: 8px;
+}
+
+legend {
+  margin-bottom: -3px;
+  padding-bottom: 0;
+}
+
+textarea {
+  margin-top: 6px;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 95%;
+  margin: 0.5em auto 2em auto;
+  height: 2.1em;
+  font-size: 1.2em;
+  background-color: #2a6993;
+  border: 0;
+  color: #eFeFeF;
+  border-radius: 13px;
+
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 430;
+  font-style: normal;
+}
+
+input[type="submit"]:hover {
+  background-color: #cd883acc;
+  border: 4px solid;
+  font-weight: 700;
+}
+
+
